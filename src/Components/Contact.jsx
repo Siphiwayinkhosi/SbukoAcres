@@ -79,7 +79,7 @@ export const Contact = () => {
       <div className="flex flex-col md:flex-row items-center justify-center mt-12 relative z-10">
         {/* Contact Form */}
         <motion.div 
-          className="bg-white p-12 rounded-lg shadow-lg max-w-4xl w-full md:w-3/5 relative z-10"
+          className="p-12 rounded-lg shadow-lg max-w-4xl w-full md:w-3/5 relative z-10 ml-60"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
